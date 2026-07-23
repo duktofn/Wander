@@ -80,4 +80,9 @@ namespace Wander.Data
         HP_LOWER_THAN_PERCENT = 3, HP_HIGHER_THAN_PERCENT = 4,
         MP_LOWER_THAN_PERCENT = 5, MP_HIGHER_THAN_PERCENT = 6
     }
+
+    public enum EquipmentType
+    {
+        STAFF = 0, RING = 1, BOOK = 2, GARB = 3
+    }
 }
