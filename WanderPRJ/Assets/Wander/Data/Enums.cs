@@ -55,4 +55,29 @@ namespace Wander.Data
         Regen = 8, Distracted = 9,                            
         Overdrive = 10, Crystalize = 11, Detonates = 12, Frozen = 13
     }
+
+    public enum PassiveEffects
+    {
+        INCR_POT = 0, INCR_F_POT = 1, INCR_W_POT = 2, INCR_L_POT = 3, INCR_I_POT = 4,
+        DESC_POT = 5, DESC_F_POT = 6, DESC_W_POT = 7, DESC_L_POT = 8, DESC_I_POT = 9,
+        INCR_VIT = 10, DESC_VIT = 11,
+        INCR_RES = 12, INCR_F_RES = 13, INCR_W_RES = 14, INCR_L_RES = 15, INCR_I_RES = 16, 
+        DESC_RES = 17, DESC_F_RES = 18, DESC_W_RES = 19, DESC_L_RES = 20, DESC_I_RES = 21,
+        INCR_MAX_HP = 22, DESC_MAX_HP = 23,
+        INCR_MAX_MP = 24, DESC_MAX_MP = 25,
+        INCR_MP_RECOVER = 26, DESC_MP_RECOVER = 27,
+        INCR_SPI = 28, DESC_SPI = 29,
+        INCR_WIS = 30, DESC_WIS = 31,
+        INCR_DMG_DEAL_TO_ENEMY = 32, DESC_DMG_DEAL_BY_ENEMY = 33, 
+        INCR_HEAL = 34, DESC_HEAL = 35,
+        INSTANT_KILL = 36
+    }
+
+    public enum PassiveConditionType
+    {
+        NONE = 0,
+        HAS_STATUS = 1, HAS_ARMOR = 2,
+        HP_LOWER_THAN_PERCENT = 3, HP_HIGHER_THAN_PERCENT = 4,
+        MP_LOWER_THAN_PERCENT = 5, MP_HIGHER_THAN_PERCENT = 6
+    }
 }
