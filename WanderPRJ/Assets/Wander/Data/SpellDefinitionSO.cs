@@ -1,8 +1,7 @@
 using System;
 using UnityEngine;
-using Wander.Data.Enums;
 
-namespace Wander.Data.Spell
+namespace Wander.Data
 {
     [CreateAssetMenu(fileName = "SpellDefinitionSO", menuName = "SpellDefinitionSO")]
     public class SpellDefinitionSO : ScriptableObject

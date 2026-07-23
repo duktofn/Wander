@@ -1,4 +1,4 @@
-namespace Wander.Data.Enums
+namespace Wander.Data
 {
     public enum Rank
     {

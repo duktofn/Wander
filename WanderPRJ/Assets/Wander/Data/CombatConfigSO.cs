@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Wander.Data.Combat {
+namespace Wander.Data {
     [CreateAssetMenu(fileName = "CombatConfigSO", menuName = "CombatConfigSO")]
     public class CombatConfigSO : ScriptableObject
     {
