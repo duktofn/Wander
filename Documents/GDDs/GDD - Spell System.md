@@ -110,7 +110,7 @@ SpellDefinition {
   id, name, rank              // Rank I / II / III — xem Section 5
   element                     // Fire | Water | Ice | Lightning — DUY NHẤT, áp cho MỌI Effect trong Spell
   manaCost, cooldown          // mỗi Spell tự set tự do, Rank chỉ định hướng (xem Section 5)
-  minWisdomToImprint
+  wisRequire
   effects: [SpellEffect]      // 1..N effect, resolve theo Section 3.4
 }
  
